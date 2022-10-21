@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mdM2VMDHdxadbG+bN8iTxB7txFKSd+T0TbHFgqzIbjzqBMkCeltceoxD3kWnnzNml2JWE4RGhHwoDQWlpSWT/A==",
+  "dgSpecHash": "xNx8jnGek6fl324VyiFLDh5p934FoSOk3AyiTTcpx5XW3aB/a1Hzblzqeq4djNK3JXxQAkSJkKW4+qaiWbAAeQ==",
   "success": true,
-  "projectFilePath": "D:\\C#\\ConsoleApp6\\ConsoleApp6\\ConsoleApp6.csproj",
+  "projectFilePath": "D:\\C#\\Printer\\ConsoleApp6\\ConsoleApp6.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
