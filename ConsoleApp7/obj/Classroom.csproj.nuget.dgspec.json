@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Classroom\\ConsoleApp7\\ConsoleApp7.csproj": {}
+    "D:\\C#\\Classroom\\ConsoleApp7\\Classroom.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Classroom\\ConsoleApp7\\ConsoleApp7.csproj": {
+    "D:\\C#\\Classroom\\ConsoleApp7\\Classroom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Classroom\\ConsoleApp7\\ConsoleApp7.csproj",
-        "projectName": "ConsoleApp7",
-        "projectPath": "D:\\C#\\Classroom\\ConsoleApp7\\ConsoleApp7.csproj",
+        "projectUniqueName": "D:\\C#\\Classroom\\ConsoleApp7\\Classroom.csproj",
+        "projectName": "Classroom",
+        "projectPath": "D:\\C#\\Classroom\\ConsoleApp7\\Classroom.csproj",
         "packagesPath": "C:\\Users\\Gena\\.nuget\\packages\\",
         "outputPath": "D:\\C#\\Classroom\\ConsoleApp7\\obj\\",
         "projectStyle": "PackageReference",
