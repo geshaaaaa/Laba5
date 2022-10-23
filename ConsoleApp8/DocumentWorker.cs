@@ -4,21 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace zavd3
 {
-     class DocumentWorker
+    class DocumentWorker
     {
+        public DocumentWorker()
+        {
+            path = Path;
+        }
+        string path = "D:\\Cheat.txt";       
+        public string Path { get { return path; } }
         public virtual  void OpenDocument()
         {
-            using (FileStream open = File.OpenRead("D:\\Cheat.txt"))
+            
+            using (FileStream open = File.OpenRead(path))
             {
                 byte[] array = new byte[open.Length];
                 open.Read(array, 0, array.Length);
                 string textofcheats = System.Text.Encoding.Default.GetString(array);
-                Console.WriteLine(textofcheats);    
+                Console.WriteLine(textofcheats);
+                Console.WriteLine("Документ відкритий");
             }
-            Console.WriteLine("Документ відкритий");
+
         }
         public virtual void EditDocument()
         {
